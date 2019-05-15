@@ -6,7 +6,7 @@ const conf = require('./config.json');
 require('dotenv').config();
 
 client.on("ready", () => {
-    client.user.setActivity("MINAS", { type: "WATCHING"})
+    client.user.setActivity("/create", { type: "WATCHING"})
 })
 
 client.on ("message", (message) => {
