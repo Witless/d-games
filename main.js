@@ -43,6 +43,9 @@ client.on ("message", (message) => {
         }
         message.channel.send(msg);
     }
+    if(message.content.startsWith("/source")){
+        message.channel.send("https://github.com/Witless/d-games");
+    }
 
     function sleep(ms) {
         var start = new Date().getTime();
