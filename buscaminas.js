@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+require('dotenv').config();
 class buscaminas {
 
     constructor(alto, largo, minas){
@@ -10,7 +11,7 @@ class buscaminas {
     }
 
     constructorMinas(){
-        //To be simplified 
+        //To be simplified
         for(var j = 0; j<this.alto; j++){
             this.mapa[j] = new Array(this.largo);
         }

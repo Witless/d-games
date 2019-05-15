@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Witless/d-games#readme",
   "dependencies": {
-    "discord.js": "^11.5.0"
+    "discord.js": "^11.5.0",
+    "dotenv": "^8.0.0"
   }
 }
