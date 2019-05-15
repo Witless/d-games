@@ -20,19 +20,19 @@ client.on ("message", (message) => {
     if(message.content.startsWith("/create")){
         var params = message.content.split(" ");
         if(isNaN(+params[1]) || isNaN(+params[2]) || isNaN(+params[3])){
-            message.channel.send(config.error1);
+            message.channel.send(conf.error1);
             return (0);
         }
         if(+params[1] > conf.MAX_HEIGHT || +params[2] > conf.MAX_HEIGHT){
-            message.channel.send(config.error2);
+            message.channel.send(conf.error2);
             return (0);
         }
         if(+params[3] > +params[1]*+params[2]){
-            message.channel.send(config.error3);
+            message.channel.send(conf.error3);
             return (0);
         }
         if(params[1]==null || params[2]==null || params[3]==null){
-            message.channel.send(config.error4);
+            message.channel.send(conf.error4);
             return (0);
         }
 
