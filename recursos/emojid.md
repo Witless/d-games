@@ -1,10 +1,10 @@
 # ShortNameEmojis
 
 **ES**
-Estos emojis contienen ˙nicamente dos car·cteres en su nombre.
-Est·n supuestos para ser usados en aplicaciones que requieran el uso de los mismos
-y su objetivo es reducir la excepciÛn de "Message Too Long" de la API de Discord.
-El lÌmite actual de car·cteres por mensaje en Discord es 2000.
+Estos emojis contienen √∫nicamente dos car√°cteres en su nombre.
+Est√°n supuestos para ser usados en aplicaciones que requieran el uso de los mismos
+y su objetivo es reducir la excepci√≥n de "Message Too Long" de la API de Discord.
+El l√≠mite actual de car√°cteres por mensaje en Discord es 2000.
 
 **EN**
 These emojis do only contain two chars on their names.
@@ -12,7 +12,7 @@ These are supposed to be operated into applications with the need of their use a
 it's objective is to reduce the Discord API exception "Message Too Long".
 It's current char limit per message is 2000. 
 
-##IDs
+## IDs
 
 bomb: 578188303124267048
 one: 578188302893711362
