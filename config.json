@@ -4,6 +4,7 @@
   "error1": "Para crear un juego pon /create [alto] [ancho] [núm minas]",
   "error2": "El buscaminas tiene como máximo un juego de 16x16",
   "error3": "El número de bombas no puede ser mayor que la dimensión del tablero",
+  "error4": "Para crear un juego pon /create [alto] [ancho] [núm minas]",
   "bomb": 578188303124267048,
   "one": 578188302893711362,
   "two": 578188302801174530,
