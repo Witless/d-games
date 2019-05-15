@@ -2,7 +2,7 @@
   "MAX_HEIGHT": 14,
   "MAX_WIDTH": 14,
   "error1": "Para crear un juego pon /create [alto] [ancho] [núm minas]",
-  "error2": "El buscaminas tiene como máximo un juego de 16x16",
+  "error2": "El buscaminas tiene como máximo un juego de 14x14",
   "error3": "El número de bombas no puede ser mayor que la dimensión del tablero",
   "error4": "Para crear un juego pon /create [alto] [ancho] [núm minas]",
   "bomb": 578188303124267048,
