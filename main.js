@@ -16,7 +16,8 @@ client.on ("message", (message) => {
     if(message.author.bot){
         return (0);
     }
-
+    console.log(message);
+    
     if(message.content.startsWith("/create")){
         var params = message.content.split(" ");
         if(isNaN(+params[1]) || isNaN(+params[2]) || isNaN(+params[3])){
