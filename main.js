@@ -6,7 +6,7 @@ const conf = require('./config.json');
 require('dotenv').config();
 
 client.on("ready", () => {
-    client.user.setActivity("/create", { type: "WATCHING"})
+    client.user.setActivity("/help", { type: "WATCHING"})
 })
 
 client.on ("message", (message) => {
@@ -16,9 +16,12 @@ client.on ("message", (message) => {
     if(message.author.bot){
         return (0);
     }
-    console.log(message.content);
-    
+    if(message.content.startsWith("/help")){
+            message.channel.send("/create [alto] [ancho] [núm minas] (Crea un tablero)");
+            message.channel.send("/source (Muestra el código del bot)");
+    }
     if(message.content.startsWith("/create")){
+        console.log(message.content);
         var params = message.content.split(" ");
         if(isNaN(+params[1]) || isNaN(+params[2]) || isNaN(+params[3])){
             message.channel.send(conf.error1);
