@@ -16,7 +16,7 @@ client.on ("message", (message) => {
     if(message.author.bot){
         return (0);
     }
-    console.log(message);
+    console.log(message.content);
     
     if(message.content.startsWith("/create")){
         var params = message.content.split(" ");
