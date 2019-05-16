@@ -28,6 +28,10 @@ client.on ("message", (message) => {
             message.channel.send(conf.error2);
             return (0);
         }
+        if(+params[1] < conf.MIN || +params[2] < conf.MIN || +params[3] < conf.MIN){
+            message.channel.send(conf.error4);
+            return (0);
+        }
         if(+params[3] > +params[1]*+params[2]){
             message.channel.send(conf.error3);
             return (0);
