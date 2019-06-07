@@ -43,6 +43,10 @@ client.on ("message", (message) => {
             message.channel.send(conf.error4);
             return (0);
         }
+        if(+params[1]*+params[2]-5 <= params[3]==null){
+            message.channel.send(conf.error3);
+            return (0);
+        }
 
         const bm = new buscaminas(params[1], params[2], params[3]);
         for (var i = 0; i<params[1]; i++){
