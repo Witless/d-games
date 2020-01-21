@@ -1,7 +1,7 @@
 # d-games
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
-https://img.shields.io/discord/577422001850023946
+[![DISCORD](https://img.shields.io/discord/577422001850023946)]()
 
 ## Bot de Discord dedicado a reproducir varios juegos clásicos. 
 
