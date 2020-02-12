@@ -20,3 +20,5 @@
  -Ahorcado
  
  -Hundir la flota
+
+## Colaboración: Miguelp25
